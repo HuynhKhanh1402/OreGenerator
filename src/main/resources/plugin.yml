@@ -1,0 +1,6 @@
+name: OreGenerator
+version: '${project.version}'
+main: me.khanh.plugins.oregenerator.OreGenerator
+api-version: 1.13
+authors: [ KhanhHuynh ]
+description: Nothing

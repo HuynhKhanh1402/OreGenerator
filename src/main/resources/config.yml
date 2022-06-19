@@ -1,0 +1,62 @@
+general:
+  generate-mode:
+    water-to-block: true
+    lava-to-block: true
+    water-to-lava: true
+  blocks:
+    - OAK_FENCE
+  generators:
+    blacklist-worlds:
+      - BLWorld
+    sound:
+      enabled: false
+      name: BLOCK_FIRE_EXTINGUISH
+      volume: 3
+      pitch: 2
+
+generations:
+  COBBLESTONE:
+    chance: 30
+    upgrade:
+      cost: 100
+      multiplier: 2
+  STONE:
+    chance: 30
+    upgrade:
+      cost: 100
+      multiplier: 2
+  COAL_ORE:
+    chance: 25
+    upgrade:
+      cost: 100
+      multiplier: 3
+  IRON_ORE:
+    chance: 0
+    upgrade:
+      cost: 100
+      multiplier: 3
+  LAPIS_ORE:
+    chance: 0
+    upgrade:
+      cost: 100
+      multiplier: 3
+  GOLD_ORE:
+    chance: 0
+    upgrade:
+      cost: 150
+      multiplier: 3
+  REDSTONE_ORE:
+    chance: 0
+    upgrade:
+      cost: 150
+      multiplier: 3
+  DIAMOND_ORE:
+    chance: 0
+    upgrade:
+      cost: 200
+      multiplier: 4
+  EMERALD_ORE:
+    chance: 0
+    upgrade:
+      cost: 200
+      multiplier: 4
